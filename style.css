@@ -1,7 +1,127 @@
+
+/* Element Styles */
+
+html {
+    min-height: 100%;
+    width: auto;
+    background-image: linear-gradient(to top, lightgray, white)
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
     color: blue;
+    margin: 20px;
+    font-size: 50px;
 }
+
+h2 {
+    color: purple;
+    margin: 10px;
+    font-size: 35px;
+}
+
+span {
+    font-weight: bold;
+}
+
+nav {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 30px;
+    position: sticky;
+    top: 0;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+nav a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightskyblue;
+    transform: scale(1.025);
+    text-decoration: underline;
+}
+
+footer {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: auto;
+    box-sizing: border-box;
+    margin-top: auto;
+}
+
+button {
+    width: fit-content;
+}
+
+/* General Class Styles (across multiple pages) */
+
+.page-structure {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+}
+
+.card {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-with-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Home Page (index.html) */
+
+
+
+/* About Me Page (about.html) */
+
+
+
+/* Projects Page (projects.html) */
+
+

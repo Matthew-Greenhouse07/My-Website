@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Website</title>
+        <title>Home</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About me</a>
+            <a href="projects.html">Projects</a>
+        </nav>
         
-        <h1>My Website</h1>
-        <p>Welcome!</p>
+        <h1>Welcome to my Portfolio!</h1>
 
-        <hr>
+        <div class="card">
+            <div class="card-text">
+                <p>Hi there, my name is <span>Matthew Greenhouse</span></p>
+                <p>I'm a <span>second year</span> computer science student at <span>Sheffield University</span></p>
+                <p>I'm currently looking to expand and develop my skills as much as possible before I graduate</p>
+                <p>This is a personal <span>Portfolio Website</span> to practice HTML, CSS, and Javascript</p>
+            </div>
 
-        <h2>Matthew Greenhouse</h2>
-        <p>Telephone: 07340 867386</p>
-        <p>E-Mail: m.greenhouse@hotmail.com</p>
-        <br>
-        <img src="images/me.jpg" alt="Picture of me" width=200px>
-        <blockquote>Such a hard worker!</blockquote>
-        <hr>
+            <div class="image-with-text">
+                <img id="image" src="images/me.jpg" alt="Picture of me" width="200" onclick="picFunction()">
+                <blockquote>Such a hard worker!</blockquote>
+            </div>
+        </div>
 
         <button id="myButton">Click me</button>
 
-        <script src="script.js"></script>
+        <footer>
+            <p>Telephone: 07340 867386</p>
+            <p>E-Mail: m.greenhouse@hotmail.com</p>
+            <p>GitHub: Matthew-Greenhouse07</p>
+        </footer>
+
     </body>
 </html>
